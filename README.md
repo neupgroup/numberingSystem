@@ -4,8 +4,15 @@ Open source number grouping utilities for JavaScript and TypeScript.
 
 ## Usage
 
+Install with `npm install @neup/numbering-system`.
+
+```js
+import { formatNumber } from '@neup/numbering-system';
+// or: const { formatNumber } = require('@neup/numbering-system');
+```
+
 ```ts
-import { formatNumber } from './index';
+import { formatNumber } from '@neup/numbering-system';
 
 formatNumber(123456789, 'Indian'); // "12,34,56,789"
 formatNumber(123456789, 'Nepali'); // "12,34,56,789"
