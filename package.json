@@ -1,0 +1,16 @@
+{
+  "name": "@neup/numbering-system",
+  "version": "0.1.0",
+  "description": "Open source number grouping utilities for JavaScript and TypeScript",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./index.ts"
+    }
+  },
+  "files": ["index.ts", "README.md", "LICENSE"]
+}
